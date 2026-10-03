@@ -7,7 +7,7 @@ Setup (from this folder):
 - Download kokoro-v1.0.onnx and voices-v1.0.bin from https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
 - Needs ffmpeg and Chromium (Playwright).
 
-Build: `python3 build.py N` (narration + timing), then `python3 render_ep.py N video` -> epN/episode.mp4.
+Build (from channels/prehistoric-ping/kit): `python3 build.py N` (narration + timing), then `python3 render_ep.py N video` -> epN/episode.mp4.
 Voice: af_heart at speed 1.08, same as the intro episode.
 
 Status: Episodes 1-3 posted/scheduled. Episodes 4-9 scripted in episodes.py, not yet built.
