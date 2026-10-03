@@ -1,8 +1,5 @@
 # video-drop
 
-Relay for videos on their way to YouTube, plus build kits.
+Temporary relay for videos on their way to YouTube (and to the Higgsfield mixer for the kids channel).
 
-- Build kits: channels/<channel-slug>/
-- Uploads: temporary orphan branches drop-<channel>-<series>-epNN; files are removed after upload.
-
-See CHANNEL_STANDARD.md in each channel's Claude project.
+Each upload goes on its own orphan branch, drop-<series>-epNN, and the files are removed after upload. Channel kits live in each channel's Claude project, not here.
